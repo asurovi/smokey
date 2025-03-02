@@ -1,0 +1,8 @@
+[Tests]
+  [test]
+    type = 'Exodiff'
+    input = 'simpleNonlinearWithMaterial.i'
+    exodiff = 'simpleNonlinearWithMaterial_out.e'
+    requirement = 'The system shall be able to solve a simple diffusion problem.'
+  []
+[]
